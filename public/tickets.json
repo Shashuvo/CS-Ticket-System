@@ -1,0 +1,137 @@
+[
+    {
+      "id": 1,
+      "title": "Login Issue",
+      "description": "User unable to login with correct credentials.",
+      "customer": "Rahim Uddin",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2026-03-01T09:15:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Payment Gateway Error",
+      "description": "Transaction fails during checkout process.",
+      "customer": "Karim Hasan",
+      "priority": "High",
+      "status": "In Progress",
+      "createdAt": "2026-03-01T10:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Password Reset Not Working",
+      "description": "Reset link expires immediately after clicking.",
+      "customer": "Nusrat Jahan",
+      "priority": "Medium",
+      "status": "Open",
+      "createdAt": "2026-03-01T11:45:00Z"
+    },
+    {
+      "id": 4,
+      "title": "UI Alignment Issue",
+      "description": "Buttons are misaligned on mobile devices.",
+      "customer": "Sabbir Ahmed",
+      "priority": "Low",
+      "status": "Resolved",
+      "createdAt": "2026-03-01T12:20:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Profile Update Error",
+      "description": "User cannot update profile picture.",
+      "customer": "Mim Akter",
+      "priority": "Medium",
+      "status": "In Progress",
+      "createdAt": "2026-03-01T13:05:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Slow Dashboard Loading",
+      "description": "Dashboard takes more than 10 seconds to load.",
+      "customer": "Tanvir Hossain",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2026-03-01T14:10:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Email Notification Delay",
+      "description": "Users receive notifications after significant delay.",
+      "customer": "Farzana Rahman",
+      "priority": "Medium",
+      "status": "Open",
+      "createdAt": "2026-03-01T15:25:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Data Export Feature Broken",
+      "description": "Exported CSV file is empty.",
+      "customer": "Imran Chowdhury",
+      "priority": "High",
+      "status": "In Progress",
+      "createdAt": "2026-03-01T16:40:00Z"
+    },
+    {
+      "id": 9,
+      "title": "Search Function Not Returning Results",
+      "description": "Search bar returns no results even for valid queries.",
+      "customer": "Jannat Islam",
+      "priority": "Medium",
+      "status": "Open",
+      "createdAt": "2026-03-02T08:15:00Z"
+    },
+    {
+      "id": 10,
+      "title": "Account Suspension Without Notice",
+      "description": "User account suspended without prior notification.",
+      "customer": "Arif Mahmud",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2026-03-02T09:50:00Z"
+    },
+    {
+      "id": 11,
+      "title": "Broken Image Links",
+      "description": "Product images not loading on product page.",
+      "customer": "Sumaiya Akter",
+      "priority": "Low",
+      "status": "Resolved",
+      "createdAt": "2026-03-02T10:30:00Z"
+    },
+    {
+      "id": 12,
+      "title": "Two-Factor Authentication Error",
+      "description": "OTP code not being accepted during login.",
+      "customer": "Mahin Rashid",
+      "priority": "High",
+      "status": "In Progress",
+      "createdAt": "2026-03-02T11:15:00Z"
+    },
+    {
+      "id": 13,
+      "title": "Incorrect Billing Amount",
+      "description": "Customer charged twice for the same order.",
+      "customer": "Lamia Sultana",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2026-03-02T12:45:00Z"
+    },
+    {
+      "id": 14,
+      "title": "Settings Page Crash",
+      "description": "Application crashes when opening settings page.",
+      "customer": "Rifat Karim",
+      "priority": "Medium",
+      "status": "In Progress",
+      "createdAt": "2026-03-02T13:30:00Z"
+    },
+    {
+      "id": 15,
+      "title": "Language Switch Not Working",
+      "description": "Selected language does not update the interface.",
+      "customer": "Tania Ahmed",
+      "priority": "Low",
+      "status": "Resolved",
+      "createdAt": "2026-03-02T14:20:00Z"
+    }
+  ]
