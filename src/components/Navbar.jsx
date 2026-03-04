@@ -23,7 +23,7 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <a className="text-2xl font-bold">CS — Ticket System</a>
+                    <a className="text-sm md:text-2xl font-bold">CS — Ticket System</a>
                 </div>
                 <div className="navbar-end gap-8">
                     <div className="hidden lg:flex">
