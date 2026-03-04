@@ -8,3 +8,15 @@
     font-family: "Inter", sans-serif;
     background-color: #F5F5F5;
 }
+
+/* Remove white background from button icons */
+.no-icon-bg svg,
+.no-icon-bg .plus-icon {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.no-icon-bg .plus-icon svg {
+    background: transparent !important;
+    background-color: transparent !important;
+}
