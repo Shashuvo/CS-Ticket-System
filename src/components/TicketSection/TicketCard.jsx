@@ -11,7 +11,7 @@ const TicketCard = ({ ticket, handleProgress, progressTask }) => {
         Low: "text-[#02A53B]",
     };
     const notify = () => {
-        toast.warning("Ticket In-Progress")
+        toast.warning(`Ticket "${title}" In-Progress!`)
     }
     const handleProgressCard = () => {
         handleProgress(ticket);

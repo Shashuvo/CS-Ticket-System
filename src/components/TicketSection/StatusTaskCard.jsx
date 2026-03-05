@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 
 const StatusTaskCard = ({ statusTask, handleResolved }) => {
     const notify = () => {
-        toast.success("Ticket Completed")
+        toast.success(`Ticket "${statusTask.title}" resolved!`)
     }
     return (
         <div className="bg-white shadow-md rounded-xl p-4 border border-gray-100 w-full md:max-w-2xl h-full space-y-4">
