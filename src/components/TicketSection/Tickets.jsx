@@ -3,7 +3,6 @@ import TicketCard from './TicketCard';
 
 const Tickets = ({ ticketsPromise }) => {
     const ticketsData = use(ticketsPromise);
-    console.log(ticketsData);
     return (
         <div>
             <h1 className='text-[#34485A] text-2xl font-semibold mb-4'>Customer Tickets</h1>

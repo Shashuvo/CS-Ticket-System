@@ -3,14 +3,13 @@ import { HiOutlineCalendarDays } from 'react-icons/hi2';
 
 const TicketCard = ({ ticket }) => {
     const { id, title, createdAt, customer, description, priority } = ticket
-    console.log(ticket, createdAt, description);
     const priorityColor = {
         High: "text-[#F83044]",
         Medium: "text-[#FEBB0C]",
         Low: "text-[#02A53B]",
     };
     return (
-        <div className="bg-white shadow-md rounded-xl p-5 border border-gray-100 max-w-2xl h-full">
+        <div className="bg-white shadow-md rounded-xl p-5 border border-gray-100 w-full md:max-w-2xl h-full">
 
             {/* Header */}
             <div className="flex justify-between items-center mb-2">
