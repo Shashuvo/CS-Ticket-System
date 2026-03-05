@@ -1,8 +1,9 @@
 import React from 'react';
 import { HiOutlineCalendarDays } from 'react-icons/hi2';
 
-const TicketCard = ({ ticket, handleProgress }) => {
-    const { id, title, createdAt, customer, description, priority } = ticket
+const TicketCard = ({ ticket, handleProgress, progressTask }) => {
+    const { id, title, createdAt, customer, description, priority } = ticket;
+    const isInProgress = progressTask.some(task => task.id === ticket.id);
     const priorityColor = {
         High: "text-[#F83044]",
         Medium: "text-[#FEBB0C]",
@@ -19,10 +20,18 @@ const TicketCard = ({ ticket, handleProgress }) => {
                 <h2 className="text-lg font-semibold text-[#001931]">{title}</h2>
 
                 {/* Status */}
-                <div className="flex items-center gap-2 bg-green-100 text-[#0B5E06] px-3 py-1 rounded-full text-sm font-medium">
-                    <span className="w-3 h-3 bg-[#02A53B] rounded-full"></span>
-                    Open
-                </div>
+                {
+                    isInProgress ?
+                        <div className="flex items-center gap-2 bg-[#F8F3B9] text-[#9C7700] px-3 py-1 rounded-full text-sm font-medium">
+                            <span className="w-3 h-3 bg-[#FEBB0C] rounded-full"></span>
+                            In-Progress
+                        </div>
+                        :
+                        <div className="flex items-center gap-2 bg-[#B9F8CF] text-[#0B5E06] px-3 py-1 rounded-full text-sm font-medium">
+                            <span className="w-3 h-3 bg-[#02A53B] rounded-full"></span>
+                            Open
+                        </div>
+                }
             </div>
 
             {/* Description */}

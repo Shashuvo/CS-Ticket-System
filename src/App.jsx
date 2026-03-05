@@ -34,7 +34,7 @@ function App() {
       <div className='w-11/12 mx-auto pb-10 md:pb-15 flex flex-col md:flex-row gap-8'>
         <aside className='w-full md:w-3/4'>
           <Suspense>
-            <Tickets ticketsPromise={ticketsPromise} handleProgress={handleProgress}></Tickets>
+            <Tickets ticketsPromise={ticketsPromise} handleProgress={handleProgress} progressTask={progressTask}></Tickets>
           </Suspense>
         </aside>
         <aside className='flex flex-col gap-8 w-full md:w-1/4 h-fit'>

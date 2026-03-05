@@ -1,14 +1,14 @@
 import React, { use } from 'react';
 import TicketCard from './TicketCard';
 
-const Tickets = ({ ticketsPromise, handleProgress }) => {
+const Tickets = ({ ticketsPromise, handleProgress, progressTask }) => {
     const ticketsData = use(ticketsPromise);
     return (
         <div>
             <h1 className='text-[#34485A] text-2xl font-semibold mb-4'>Customer Tickets</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch'>
                 {
-                    ticketsData.map(ticket => <TicketCard key={ticket.id} ticket={ticket} handleProgress={handleProgress}></TicketCard>)
+                    ticketsData.map(ticket => <TicketCard key={ticket.id} ticket={ticket} handleProgress={handleProgress} progressTask={progressTask}></TicketCard>)
                 }
             </div>
         </div>
