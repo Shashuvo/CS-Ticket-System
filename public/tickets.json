@@ -6,7 +6,7 @@
       "customer": "Rahim Uddin",
       "priority": "High",
       "status": "Open",
-      "createdAt": "2026-03-01T09:15:00Z"
+      "createdAt": "2026-03-01"
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "customer": "Karim Hasan",
       "priority": "High",
       "status": "In Progress",
-      "createdAt": "2026-03-01T10:30:00Z"
+      "createdAt": "2026-03-01"
     },
     {
       "id": 3,
@@ -24,7 +24,7 @@
       "customer": "Nusrat Jahan",
       "priority": "Medium",
       "status": "Open",
-      "createdAt": "2026-03-01T11:45:00Z"
+      "createdAt": "2026-03-01"
     },
     {
       "id": 4,
@@ -33,7 +33,7 @@
       "customer": "Sabbir Ahmed",
       "priority": "Low",
       "status": "Resolved",
-      "createdAt": "2026-03-01T12:20:00Z"
+      "createdAt": "2026-03-01"
     },
     {
       "id": 5,
@@ -42,7 +42,7 @@
       "customer": "Mim Akter",
       "priority": "Medium",
       "status": "In Progress",
-      "createdAt": "2026-03-01T13:05:00Z"
+      "createdAt": "2026-03-01"
     },
     {
       "id": 6,
@@ -51,7 +51,7 @@
       "customer": "Tanvir Hossain",
       "priority": "High",
       "status": "Open",
-      "createdAt": "2026-03-01T14:10:00Z"
+      "createdAt": "2026-03-01"
     },
     {
       "id": 7,
@@ -60,7 +60,7 @@
       "customer": "Farzana Rahman",
       "priority": "Medium",
       "status": "Open",
-      "createdAt": "2026-03-01T15:25:00Z"
+      "createdAt": "2026-03-01"
     },
     {
       "id": 8,
@@ -69,7 +69,7 @@
       "customer": "Imran Chowdhury",
       "priority": "High",
       "status": "In Progress",
-      "createdAt": "2026-03-01T16:40:00Z"
+      "createdAt": "2026-03-01"
     },
     {
       "id": 9,
@@ -78,7 +78,7 @@
       "customer": "Jannat Islam",
       "priority": "Medium",
       "status": "Open",
-      "createdAt": "2026-03-02T08:15:00Z"
+      "createdAt": "2026-03-02"
     },
     {
       "id": 10,
@@ -87,7 +87,7 @@
       "customer": "Arif Mahmud",
       "priority": "High",
       "status": "Open",
-      "createdAt": "2026-03-02T09:50:00Z"
+      "createdAt": "2026-03-02"
     },
     {
       "id": 11,
@@ -96,7 +96,7 @@
       "customer": "Sumaiya Akter",
       "priority": "Low",
       "status": "Resolved",
-      "createdAt": "2026-03-02T10:30:00Z"
+      "createdAt": "2026-03-02"
     },
     {
       "id": 12,
@@ -105,7 +105,7 @@
       "customer": "Mahin Rashid",
       "priority": "High",
       "status": "In Progress",
-      "createdAt": "2026-03-02T11:15:00Z"
+      "createdAt": "2026-03-02"
     },
     {
       "id": 13,
@@ -114,7 +114,7 @@
       "customer": "Lamia Sultana",
       "priority": "High",
       "status": "Open",
-      "createdAt": "2026-03-02T12:45:00Z"
+      "createdAt": "2026-03-02"
     },
     {
       "id": 14,
@@ -123,7 +123,7 @@
       "customer": "Rifat Karim",
       "priority": "Medium",
       "status": "In Progress",
-      "createdAt": "2026-03-02T13:30:00Z"
+      "createdAt": "2026-03-02"
     },
     {
       "id": 15,
@@ -132,6 +132,15 @@
       "customer": "Tania Ahmed",
       "priority": "Low",
       "status": "Resolved",
-      "createdAt": "2026-03-02T14:20:00Z"
+      "createdAt": "2026-03-02"
+    },
+    {
+      "id": 16,
+      "title": "Notification Panel Not Updating",
+      "description": "New notifications are not appearing in the notification panel until the page is refreshed.",
+      "customer": "Shahidul Islam",
+      "priority": "Medium",
+      "status": "Open",
+      "createdAt": "2026-03-02"
     }
   ]
