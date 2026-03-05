@@ -6,6 +6,7 @@ import Resolved from './components/TicketSection/Resolved'
 import Status from './components/TicketSection/Status'
 import Tickets from './components/TicketSection/Tickets'
 import Footer from './components/Footer'
+import { ToastContainer } from 'react-toastify'
 
 const fetchTickets = fetch("/tickets.json").then(res => res.json());
 
@@ -43,6 +44,18 @@ function App() {
         </aside>
       </div>
       <Footer></Footer>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { HiOutlineCalendarDays } from 'react-icons/hi2';
+import { toast } from 'react-toastify';
 
 const TicketCard = ({ ticket, handleProgress, progressTask }) => {
     const { id, title, createdAt, customer, description, priority } = ticket;
@@ -9,11 +10,14 @@ const TicketCard = ({ ticket, handleProgress, progressTask }) => {
         Medium: "text-[#FEBB0C]",
         Low: "text-[#02A53B]",
     };
+    const notify = () => {
+        toast.warning("Ticket In-Progress")
+    }
     const handleProgressCard = () => {
         handleProgress(ticket);
     }
     return (
-        <div onClick={handleProgressCard} className="bg-white shadow-md rounded-xl p-5 border border-gray-100 w-full md:max-w-2xl h-full">
+        <div onClick={() => { handleProgressCard(); notify(); }} className="bg-white shadow-md rounded-xl p-5 border border-gray-100 w-full md:max-w-2xl h-full">
 
             {/* Header */}
             <div className="flex justify-between items-center mb-2">
