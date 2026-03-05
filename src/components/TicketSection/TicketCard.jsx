@@ -33,7 +33,7 @@ const TicketCard = ({ ticket }) => {
                     <span className={`text-sm uppercase ${priorityColor[priority]}`}>{priority} Priority</span>
                 </div>
 
-                <div className="flex items-center gap-4 text-[#627382] text-sm">
+                <div className="flex flex-col md:flex-row items-center gap-1 md:gap-4 text-[#627382] text-sm">
                     <span>{customer}</span>
 
                     <div className="flex items-center gap-1">
