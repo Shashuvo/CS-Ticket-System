@@ -1,15 +1,18 @@
 import React from 'react';
 import { HiOutlineCalendarDays } from 'react-icons/hi2';
 
-const TicketCard = ({ ticket }) => {
+const TicketCard = ({ ticket, handleProgress }) => {
     const { id, title, createdAt, customer, description, priority } = ticket
     const priorityColor = {
         High: "text-[#F83044]",
         Medium: "text-[#FEBB0C]",
         Low: "text-[#02A53B]",
     };
+    const handleProgressCard = () => {
+        handleProgress(ticket);
+    }
     return (
-        <div className="bg-white shadow-md rounded-xl p-5 border border-gray-100 w-full md:max-w-2xl h-full">
+        <div onClick={handleProgressCard} className="bg-white shadow-md rounded-xl p-5 border border-gray-100 w-full md:max-w-2xl h-full">
 
             {/* Header */}
             <div className="flex justify-between items-center mb-2">
