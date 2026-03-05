@@ -5,7 +5,7 @@ import { MdOutlineMail } from 'react-icons/md';
 const Footer = () => {
     return (
         <div className='bg-black text-[#A1A1AA] pt-10 md:pt-15 '>
-            <footer className="footer w-11/12 mx-auto pb-10 md:pb-15 sm:footer-horizontal flex flex-col md:flex-row gap-10 md:gap-28">
+            <footer className="footer w-11/12 mx-auto pb-12 sm:footer-horizontal flex flex-col md:flex-row gap-10 md:gap-28">
                 <nav className='w-full md:w-2/5 gap-4'>
                     <p className='font-bold text-2xl text-white'>CS — Ticket System</p>
                     <p>CS-Ticket System is a simple React-based customer support ticket management platform where users can view, track, and resolve support tickets. Built with React, Tailwind CSS, and DaisyUI, it provides a responsive interface for managing ticket status efficiently.</p>

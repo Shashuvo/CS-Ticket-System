@@ -29,7 +29,7 @@ const TicketCard = ({ ticket }) => {
             <div className="flex justify-between items-center text-sm">
 
                 <div className="flex gap-4 items-center">
-                    <span className="text-[#627382] text-sm">#100{id}</span>
+                    <span className="text-[#627382] text-sm">#{id}</span>
                     <span className={`text-sm uppercase ${priorityColor[priority]}`}>{priority} Priority</span>
                 </div>
 

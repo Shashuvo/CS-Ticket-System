@@ -1,6 +1,6 @@
 [
     {
-      "id": 1,
+      "id": 1001,
       "title": "Login Issue",
       "description": "User unable to login with correct credentials.",
       "customer": "Rahim Uddin",
@@ -9,7 +9,7 @@
       "createdAt": "2026-03-01"
     },
     {
-      "id": 2,
+      "id": 1002,
       "title": "Payment Gateway Error",
       "description": "Transaction fails during checkout process.",
       "customer": "Karim Hasan",
@@ -18,7 +18,7 @@
       "createdAt": "2026-03-01"
     },
     {
-      "id": 3,
+      "id": 1003,
       "title": "Password Reset Not Working",
       "description": "Reset link expires immediately after clicking.",
       "customer": "Nusrat Jahan",
@@ -27,7 +27,7 @@
       "createdAt": "2026-03-01"
     },
     {
-      "id": 4,
+      "id": 1004,
       "title": "UI Alignment Issue",
       "description": "Buttons are misaligned on mobile devices.",
       "customer": "Sabbir Ahmed",
@@ -36,7 +36,7 @@
       "createdAt": "2026-03-01"
     },
     {
-      "id": 5,
+      "id": 1005,
       "title": "Profile Update Error",
       "description": "User cannot update profile picture.",
       "customer": "Mim Akter",
@@ -45,7 +45,7 @@
       "createdAt": "2026-03-01"
     },
     {
-      "id": 6,
+      "id": 1006,
       "title": "Slow Dashboard Loading",
       "description": "Dashboard takes more than 10 seconds to load.",
       "customer": "Tanvir Hossain",
@@ -54,7 +54,7 @@
       "createdAt": "2026-03-01"
     },
     {
-      "id": 7,
+      "id": 1007,
       "title": "Email Notification Delay",
       "description": "Users receive notifications after significant delay.",
       "customer": "Farzana Rahman",
@@ -63,7 +63,7 @@
       "createdAt": "2026-03-01"
     },
     {
-      "id": 8,
+      "id": 1008,
       "title": "Data Export Feature Broken",
       "description": "Exported CSV file is empty.",
       "customer": "Imran Chowdhury",
@@ -72,7 +72,7 @@
       "createdAt": "2026-03-01"
     },
     {
-      "id": 9,
+      "id": 1009,
       "title": "Search Function Not Returning Results",
       "description": "Search bar returns no results even for valid queries.",
       "customer": "Jannat Islam",
@@ -81,7 +81,7 @@
       "createdAt": "2026-03-02"
     },
     {
-      "id": 10,
+      "id": 1010,
       "title": "Account Suspension Without Notice",
       "description": "User account suspended without prior notification.",
       "customer": "Arif Mahmud",
@@ -90,7 +90,7 @@
       "createdAt": "2026-03-02"
     },
     {
-      "id": 11,
+      "id": 1011,
       "title": "Broken Image Links",
       "description": "Product images not loading on product page.",
       "customer": "Sumaiya Akter",
@@ -99,7 +99,7 @@
       "createdAt": "2026-03-02"
     },
     {
-      "id": 12,
+      "id": 1012,
       "title": "Two-Factor Authentication Error",
       "description": "OTP code not being accepted during login.",
       "customer": "Mahin Rashid",
@@ -108,7 +108,7 @@
       "createdAt": "2026-03-02"
     },
     {
-      "id": 13,
+      "id": 1013,
       "title": "Incorrect Billing Amount",
       "description": "Customer charged twice for the same order.",
       "customer": "Lamia Sultana",
@@ -117,7 +117,7 @@
       "createdAt": "2026-03-02"
     },
     {
-      "id": 14,
+      "id": 1014,
       "title": "Settings Page Crash",
       "description": "Application crashes when opening settings page.",
       "customer": "Rifat Karim",
@@ -126,7 +126,7 @@
       "createdAt": "2026-03-02"
     },
     {
-      "id": 15,
+      "id": 1015,
       "title": "Language Switch Not Working",
       "description": "Selected language does not update the interface.",
       "customer": "Tania Ahmed",
@@ -135,7 +135,7 @@
       "createdAt": "2026-03-02"
     },
     {
-      "id": 16,
+      "id": 1016,
       "title": "Notification Panel Not Updating",
       "description": "New notifications are not appearing in the notification panel until the page is refreshed.",
       "customer": "Shahidul Islam",
